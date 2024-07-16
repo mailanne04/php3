@@ -1,4 +1,4 @@
-@extends('Client.layouts.app')
+@extends('client.layouts.app')
 
 @section('content')
 div class="breadcrumb-area ml-110">
@@ -132,7 +132,7 @@ eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 <div class="quantity">
 <input type="number" min="1" max="90" step="10" value="1">
 </div>
-<button type="submit" class="pd-add-cart">Add to cart</button>
+<button type="submit" class="pd-add-cart"><a href="cart" style="color:white">Add to cart</a></button>
 </li>
 <li class="pd-type">Product Type: <span>Woman Winter Dress</span></li>
 <li class="pd-type">Catagories: <span> Clothing, Hoodies</span></li>
